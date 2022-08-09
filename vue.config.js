@@ -94,5 +94,6 @@ const appConfig = {
 module.exports = {
 	...devConfig,
 	...commonConfig,
-	...defaultConfig
+	...defaultConfig,
+	publicPath: './'
 }
