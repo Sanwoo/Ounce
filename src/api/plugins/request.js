@@ -2,7 +2,7 @@ import axios from 'axios'
 import { Toast } from 'vant'
 const dev = false;
 
-const baseURL = dev ? '/api' : 'https://ounce-music-api.vercel.app/',
+const baseURL = dev ? '/api' : 'http://ounce.love/',
 	timeout = 6000;
 axios.defaults.withCredentials = true
 const instance = axios.create({
